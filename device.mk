@@ -96,6 +96,3 @@ $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 
 # Call the Leica Camera setup
 $(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicacamera-vendor.mk)
-
-# ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
